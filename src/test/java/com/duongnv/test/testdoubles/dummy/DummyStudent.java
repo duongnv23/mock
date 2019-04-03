@@ -1,0 +1,16 @@
+package com.duongnv.test.testdoubles.dummy;
+
+public class DummyStudent extends Student {
+
+    public DummyStudent() {
+        super(null, null);
+    }
+
+    public String getRoleNumber() {
+        throw new RuntimeException("Dummy student");
+    }
+
+    public String getName() {
+        throw new RuntimeException("Dummy student");
+    }
+}
